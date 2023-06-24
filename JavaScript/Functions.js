@@ -17,5 +17,7 @@ console.log("Function Expression defining value = "+ multiply2);
 var multiply3 =(p,q)=>{
   return p*q;
 }
+// or 
+//  var multiply3=(p,q)=>p*q;
 console.log("Output by Arrow Function = "+multiply3(2,4))
 
